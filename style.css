@@ -1,0 +1,46 @@
+body {
+    background-color: #fdf6e8 !important;
+} 
+.bg2 {
+    background-color: #fbedd0 !important;
+}
+#fixedFooter {
+    background-color: #fbedd0;
+    opacity: 0.9;
+}
+.main-text-font {
+    font-family: 'Varela Round', sans-serif;
+}
+.title-font {
+    font-family: 'Marck Script', cursive;
+}
+.gallerySpacing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#gradient {
+  background-image: linear-gradient(to right, #fbedd0 , #efb343);
+}
+.par-padd {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.title-padd {
+    padding-left: 2em;
+}
+.space {
+    padding-bottom: 2em;
+}
+/*******  ICON STYLE   ********/
+.icon-color{
+    color: grey;
+}
+.fbicon:hover {
+    color:#4267B2;
+}
+.twicon:hover {
+    color:#1DA1F2;
+}
+.yticon:hover {
+    color:#FF0000;
+}

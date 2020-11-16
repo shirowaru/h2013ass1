@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Sit On a Rock  </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- **********  Import Bootstrap, Google Font, FontAwesome, JS & JQuery  *********** -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0e07f43c49.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- *******************************  NAVIGATION ***************************************-->
+        <nav class="navbar sticky-top bg2 main-text-font navbar-expand-lg navbar-light">
+            <a class="navbar-brand title-font" href="index.html">Sit On A Rock</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Yoga
+                        </a>
+                        <div class="dropdown-menu" >
+                            <a class="dropdown-item" href="whatisyoga.html">What is Yoga?</a>
+                            <a class="dropdown-item" href="whatyouneed.html">What Do I Need?</a>
+                            <a class="dropdown-item" href="classes.html">Class Schedule</a>
+                            <a class="dropdown-item" href="book.html">Book Classes</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ballycullen Lodge
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="aboutlodge.html">About The Lodge</a>
+                            <a class="dropdown-item" href="lodgegallery.html">Gallery</a>
+                            <a class="dropdown-item" target="_blank" href="http://airbnb.ie/rooms/27103949?source_impression_id=p3_1604661896_5hw1NohtMSu%2Bw4gT">Book Your Stay</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="neuroscience.html">Neuroscience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- *******************************  CAROUSEL ***************************************-->
+        <div id="carouselExampleIndicators" class="carousel slide main-text-font" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/forest.jpg" alt="Woman Meditating sitting on a rock in a Forest">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Natural Wellness</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/yoga.jpg" alt="People Doing Yoga">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Yoga</h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/lodge.jpg" alt="Ballycullen Lodge">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4>Ballycullen Lodge</h4>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <br>
+        <br>
+        <!-- *******************************  WELCOME MESSAGE ***************************************-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-1"></div>
+                <div class="col-xl-10">
+                    <h1 class="title-font text-center">Welcome to Sit On A Rock</h1>
+                    <p class="main-text-font"><strong>Sit On A Rock</strong> is an invitation to routinely schedule time to love your soul, honour your
+                        humanity, respect your body, understand your brain, connect to nature and through these
+                        practices, experience vibrant energy, peace of mind and profound wellbeing.
+                        <br>We bring together ancient practices and integrated body-mind science to offer classes,
+                        courses, workshops, coaching, therapies and retreats on we can thrive, even if it is
+                        imperfectly, in these challenging circumstances.
+                        <br>Right now, everything is happening online. We hope that we will be free to unlock our doors
+                        and welcome you with open arms in person, in 2021!</p>
+                </div>
+                <div class="col-xl-1"></div>
+            </div>
+        </div>
+        <br><hr><br><br>
+        <!-- *******************************  WELLNESS SECTION ***************************************-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/words.png" alt="Wellness Word Cloud" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="title-font text-center">Wellness</h1> 
+                    <br>
+                    <p class="main-text-font">
+                        As brain-body occupants, we have a decision to make, today and every day; do we
+                        mindlessly live in our sublime bodies, do we handover care entirely to medical professionals,
+                        or do we sit on a rock and take responsibility for our own lifestyle, habits and wellbeing?
+                        <br>The team at <strong> Sit On a Rock</strong> is here to help you decide and begin again, whenever you are ready to journey towards optimal wellbeing. 
+                        <br>
+                        The once separate arenas of health and wellness have pretty much merged over recent
+                        decades and trends indicate that this process will continue.
+                        <br>Research shows that elements of wellness usually include at least: Emotional, Physical,
+                        Spiritual, Social, Occupational, Intellectual, Financial and Environmental.
+                        <br>Here at <strong>Sit On A Rock</strong> our approach to wellness is entirely holistic. We focus on teaching
+                        and sharing what we know and what we are passionate about.
+                        <br>Wellness is a $44.2 trillion market and each of us can choose how we invest in our
+                        wellbeing.
+                    </p>
+                    <br>
+                   
+                </div>
+            </div>
+        </div>
+        <br><hr><br><br>
+        <!-- *******************************  YOGA SECTION  ***************************************-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="title-font text-center">Yoga</h1> <br>
+                    <p class="main-text-font">
+                        Welcome to YogaTree, Ireland. New to Yoga? There's no need to be nervous - yoga is accessible to everyone, no matter your age, occupation, fitness level or flexibility. Yoga is in no way exclusive and practising yoga has a multitude of benefits. Yoga is a practice that is both physical exercise, helping improve toning, stamina, posture, strength, balance and flexibility, as well as a discipline that helps you de-stress, relax, feel healthier and more energetic.
+                    </p>
+                    <br>
+                    <div class="text-center"><a class="btn btn-secondary main-text-font" href="book.html">Book a Class »</a></div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/yoga2.png" alt="YogaTree Logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <br><hr><br><br>
+        <!-- *******************************  LODGE SECTION ***************************************-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/lodge2.jpg" alt="Ballycullen Lodge Aerial View" class="img-fluid rounded space">
+                </div>
+                <div class="col-md-6">
+                    <h1 class="title-font text-center">Ballycullen Lodge</h1> <br>
+                    <p class="main-text-font">
+                        We offer delicious dinners and if you choose to dine with us, we can promise you'll enjoy yummy, fresh, organic and nutritious food - beautifully candle lit and served with a pinch of luxury.  We ask guests what their food preferences are in advance; sinfully indulgent, scrumptious &amp; healthy, detox/weight loss, vegetarian, meat, fish or vegan.  We cater for guests who have food allergies or sensitivities like sugar, wheat and dairy.  Let us know so we can be ready for you when you walk through the door. There is organic wine if you are tempted. 
+                        Welcome to YogaTree, Ireland. New to Yoga? There's no need to be nervous - yoga is accessible to everyone, no matter your age, occupation, fitness level or flexibility. Yoga is in no way exclusive and practising yoga has a multitude of benefits. Yoga is a practice that is both physical exercise, helping improve toning, stamina, posture, strength, balance and flexibility, as well as a discipline that helps you de-stress, relax, feel healthier and more energetic.
+                    </p>
+                    <br> 
+                    <div class=text-center><a class="btn btn-secondary main-text-font" href="aboutlodge.html">See More »</a></div>
+                </div>
+            </div>
+        </div>
+        <br><hr><br><br>
+        <!-- *******************************  NEUROSCIENCE SECTION ***************************************-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="title-font text-center">Neuroscience</h1> <br>
+                    <p class="main-text-font">
+                        Come on a journey with us, designed and tailored specifically to share the science of finding
+                        your courage, inspiration and creativity.
+                        <br>Join us at <strong>Sit On A Rock</strong> for neuroscience-based events with our long-time partner
+                        LeadingAlive. Understand more about the integrated nature of being human and being well
+                        in mind, body and spirit.
+                        <br><strong>Learn about connecting wholehearted living, effective working and health through a
+                        neuroscience perspective.</strong>
+                        <br>We love that through the science of neuroscience, we can now measure emotions and
+                        understand how they are made. The ‘classical theory of emotions’ has been thrown out of
+                        the window by recent research! For too long feelings have been shunned in our western
+                        civilization, leading to a lot of unnecessary suffering.
+                    </p>
+                    <br> 
+                    <div class="text-center"><a class="btn btn-secondary main-text-font" href="neuroscience.html">See More »</a></div>
+                    <br><br>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/ns.jpg" alt="Neuroscience" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+        <br><hr><br><br>
+        <!-- *******************************  FOOTER  ***************************************-->
+        <footer class="container">
+            <div class="fixed-bottom" id="fixedFooter"> 
+                <div class="row">
+                    <div class="col"><small class="main-text-font">&emsp; Copyright &copy; 2020 </small></div>
+                    <div class="col">  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </div>
+                    <div class="col">
+                        <a href="http://facebook.com" target="_blank"><i class="fbicon icon-color fab fa-facebook-square"></i></a>
+                        <a href="http://twitter.com" target="_blank"><i class="twicon icon-color fab fa-twitter-square"></i></a>
+                        <a href="http://youtube.com" target="_blank"><i class="yticon icon-color fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
